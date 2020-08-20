@@ -491,3 +491,66 @@ Caused by: java.io.FileNotFoundException: /media/tbahati/TBAHATI/COURSES/PMS/Bac
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
 !SUBENTRY 1 org.eclipse.ui 2 0 2020-08-20 09:28:05.441
 !MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.ui 2 2 2020-08-20 10:00:57.094
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:43.967
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:43.968
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@76dc9569[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=628)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:43.970
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:43.989
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:46.491
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:46.492
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@76dc9569[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=628)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:46.492
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.572
+!MESSAGE Boot LS startup time from start to initialized: 1079ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.607
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jGngpdJZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.609
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.610
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.612
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.614
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.621
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.621
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.622
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jGngpdJZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.623
+!MESSAGE buffering callback sts4.classpath.jGngpdJZ ppmtool false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.623
+!MESSAGE executing callback sts4.classpath.jGngpdJZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-20 10:01:47.684
+!MESSAGE executing callback sts4.classpath.jGngpdJZ SUCCESS [done]
