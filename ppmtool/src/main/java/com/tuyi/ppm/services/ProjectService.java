@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tuyi.ppm.domain.Project;
+import com.tuyi.ppm.exception.ProjectIdException;
 import com.tuyi.ppm.repositories.ProjectRepository;
 
 @Service
@@ -13,11 +14,24 @@ public class ProjectService {
 	private ProjectRepository projectRepository;
 
 	public Project saveOrUpdate(Project project) {
-		
-		//Some Logic
-		
-		
-		return projectRepository.save(project);
+		try {
+			project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+			return projectRepository.save(project);
+		} catch (Exception e) {
+			throw new ProjectIdException(
+					"Project ID:  " + project.getProjectIdentifier().toUpperCase() + " Already exist");
+		}
+
+	}
+
+	@SuppressWarnings("null")
+	public Project findProjectByIdentifier(String projectIdentifier) {
+		Project project = projectRepository.findByProjectIdentifier(projectIdentifier);
+		if(project == null) {
+			throw new ProjectIdException(
+					"Project ID:  " + projectIdentifier.toUpperCase() + " does not exist");
+		}
+		return project;
 	}
 
 }

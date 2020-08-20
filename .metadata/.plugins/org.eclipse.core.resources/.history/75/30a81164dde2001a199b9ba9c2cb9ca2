@@ -1,0 +1,5 @@
+package com.tuyi.ppm.exception;
+
+public class ProjectIdExceptionResponse {
+
+}
