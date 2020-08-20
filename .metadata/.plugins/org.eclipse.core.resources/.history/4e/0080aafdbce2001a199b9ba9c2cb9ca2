@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.tuyi.ppm.domain;
+
+/**
+ * @author tbahati
+ *
+ */
+@Entity
+public class Project {
+
+}

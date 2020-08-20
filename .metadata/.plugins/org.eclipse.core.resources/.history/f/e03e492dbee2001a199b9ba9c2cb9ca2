@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.tuyi.ppm.domain;
+
+import javax.persistence.Entity;
+
+/**
+ * @author tbahati
+ *
+ */
+@Entity
+public class Project {
+
+}

@@ -1,0 +1,5 @@
+package com.tuyi.ppm.repositories;
+
+public interface ProjectRepository {
+
+}
