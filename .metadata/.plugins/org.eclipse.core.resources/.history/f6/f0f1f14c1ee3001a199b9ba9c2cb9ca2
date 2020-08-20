@@ -56,8 +56,15 @@ public class ProjectController {
 	public ResponseEntity<?> deleteProductByIdentifier(@PathVariable String projectIdentifier) {
 		projectService.deleteProjectByIdentifier(projectIdentifier);
 
-		return new ResponseEntity<String>(
-				"Product with this Product ID: " + projectIdentifier + " deleted Successfully", HttpStatus.OK);
+		return new ResponseEntity<String>("Product with this Product ID: " + projectIdentifier + " deleted Successfully",
+				HttpStatus.OK);
+	}
+
+	@PutMapping("/{projectIdentifier}")
+	public ResponseEntity<?> updateProductByIdentifier(@PathVariable String projectIdentifier) {
+
+		return new ResponseEntity<String>("Product with this Product ID: " + projectIdentifier + " updated Successfully", HttpStatus.OK);
+
 	}
 
 }

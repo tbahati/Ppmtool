@@ -60,4 +60,12 @@ public class ProjectController {
 				"Product with this Product ID: " + projectIdentifier + " deleted Successfully", HttpStatus.OK);
 	}
 
+	@PutMapping("/{projectIdentifier}")
+	public ResponseEntity<?> updateProductByIdentifier(@PathVariable String projectIdentifier) {
+		projectService.updateProjectByIdentifier(projectIdentifier);
+		return new ResponseEntity<String>(
+				"Product with this Product ID: " + projectIdentifier + " updated Successfully", HttpStatus.OK);
+
+	}
+
 }
